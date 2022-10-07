@@ -1,6 +1,6 @@
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLguNuseYP"
-#define BLYNK_DEVICE_NAME "dht11project"
+#define BLYNK_TEMPLATE_ID "Your BLYNK Template"
+#define BLYNK_DEVICE_NAME "Your Name Device"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -12,7 +12,7 @@
 DHT dht(dht_dpin, DHTTYPE); 
 
 
-char auth[] = "EmozZT2uvSeOb0tPuQ16f5UP3_pgWIhe";            // You should get Auth Token in the Blynk App.
+char auth[] = "Your Token Auth from Blynk";            // You should get Auth Token in the Blynk App.
 char ssid[] = "Your ssid";    // Your WiFi credentials.
 char pass[] = "Your password";  // Set password to "" for open networks.
 float t;                                   // Declare the variables 
