@@ -13,8 +13,8 @@ DHT dht(dht_dpin, DHTTYPE);
 
 
 char auth[] = "EmozZT2uvSeOb0tPuQ16f5UP3_pgWIhe";            // You should get Auth Token in the Blynk App.
-char ssid[] = "Anjay";    // Your WiFi credentials.
-char pass[] = "kepobangetluh";  // Set password to "" for open networks.
+char ssid[] = "Your ssid";    // Your WiFi credentials.
+char pass[] = "Your password";  // Set password to "" for open networks.
 float t;                                   // Declare the variables 
 float h;
 
